@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import firebase from 'firebase';
 import 'firebase/auth';
+import firebaseConfig from './firebase.Config';
 firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
